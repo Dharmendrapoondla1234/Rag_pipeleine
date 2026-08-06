@@ -127,16 +127,16 @@ if st.session_state.last_result:
     st.subheader("Answer")
     st.write(st.session_state.last_result["answer"])
 
-    if st.checkbox("Show retrieved context"):
-        st.subheader("Retrieved Context")
-        st.text_area("Context", st.session_state.last_result["retrieved_text"], height=220)
+#     if st.checkbox("Show retrieved context"):
+#         st.subheader("Retrieved Context")
+#         st.text_area("Context", st.session_state.last_result["retrieved_text"], height=220)
 
-with st.expander("Advanced options"):
-    if st.button("Rebuild index"):
-        with st.spinner("Rebuilding index..."):
-            try:
-                build_index(DATA_FILE)
-                st.success("Index rebuilt successfully")
-                st.experimental_rerun()
-            except Exception as exc:
-                st.error(f"Error: {exc}")
+# with st.expander("Advanced options"):
+#     if st.button("Rebuild index"):
+#         with st.spinner("Rebuilding index..."):
+#             try:
+#                 build_index(DATA_FILE)
+#                 st.success("Index rebuilt successfully")
+#                 st.experimental_rerun()
+#             except Exception as exc:
+#                 st.error(f"Error: {exc}")
