@@ -1,0 +1,18 @@
+1. What is Python?
+
+Answer:
+Python is a high-level, interpreted, general-purpose programming language known for its simple syntax, readability, and extensive library support. It is widely used in web development, data science, machine learning, automation, cloud computing, and software development.
+
+2. What are the key features of Python?
+
+Answer:
+• Easy to learn and read
+• Interpreted language
+• Platform independent
+• Object-oriented
+• Dynamically typed
+• Large standard library
+• Open source
+• Supports multiple programming paradigms
+• Extensive third-party libraries
+ sses the lock, similar to a context manager.

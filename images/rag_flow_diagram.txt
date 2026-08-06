@@ -1,0 +1,27 @@
+RAG Flow Diagram
+================
+
+[Document File]
+      |
+      v
+[Chunk Text]
+      |
+      v
+[Create Embeddings]
+      |
+      v
+[FAISS Vector Store]
+      |
+      v
+[User Query]
+      |
+      v
+[Retrieve Relevant Chunks]
+      |
+      v
+[Prompt + Context]
+      |
+      v
+[Gemini Answer]
+
+Use this as a simple sketch for a diagram or image design.
